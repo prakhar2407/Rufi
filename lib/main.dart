@@ -4,6 +4,7 @@ import 'package:rufi_flutter/screens/Login.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Login(),
   ));
 }
